@@ -64,3 +64,18 @@ print(f"Total: ${total_amount}")
 print(f"Average Change: ${monthly_average_change:.2f}")
 print(f"Greatest Increase in Profits:, {greatest_increase_month}, (${greatest_increase})")
 print(f"Greatest Decrease in Profits:, {greatest_decrease_month}, (${greatest_decrease})")
+
+# Specify file to Write To
+budget_analysis = os.path.join('..', 'PyBank', 'Analysis', 'budget_data_analysed.text')
+
+# Open file using "Write" mode. Specify the variable to hold the contents
+with open(budget_analysis, 'w',) as analysedfile:
+
+# Write new data
+    analysedfile.write(f"Financial Analysis\n")
+    analysedfile.write(f"---------------------------\n")
+    analysedfile.write(f"Total Months: {total_months}\n")
+    analysedfile.write(f"Total: ${total_amount}\n")
+    analysedfile.write(f"Average Change: ${monthly_average_change:.2f}\n")
+    analysedfile.write(f"Greatest Increase in Profits: {greatest_increase_month}, (${greatest_increase})\n")
+    analysedfile.write(f"Greatest Decrease in Profits: {greatest_decrease_month}, (${greatest_decrease})\n")
