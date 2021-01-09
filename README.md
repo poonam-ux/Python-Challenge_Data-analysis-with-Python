@@ -15,7 +15,7 @@ This activity involves two challenges- PyBank(budget data) and PyPoll(election d
 
 Create a Python script to analyze the financial records of a company. You will be provided with a     dataset called budget_data.csv. The dataset consists of two columns: Date and Profit/Losses.
 
-Create the script that analyzes the records to calculate-
+* Create the script that analyzes the records to calculate-
     * The total number of months included in the dataset
     * The net total amount of “Profit/Losses” over the entire period
     * The changes in “Profit/Losses” over the entire period, and the average of those changes
@@ -28,7 +28,7 @@ Print and store the analysis results
 
 In this challenge, you are tasked with helping a small, rural town modernize its vote counting process. You are provided with a dataset called election_data.csv. The dataset consists of three columns: Voter ID, County, and Candidate.
 
-Create the script that analyzes the votes to calculate-
+* Create the script that analyzes the votes to calculate-
     * Total number of votes cast
     * List of candidate names
     * Percentage of votes each candidate won
