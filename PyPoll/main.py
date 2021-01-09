@@ -75,3 +75,23 @@ print(f"O'Tooley: {otooley_percent:.2%} (votes: {otooley_votes})")
 print(f"--------------------------------")
 print(f"Winner is {winner_name} with {winner} votes!")
 print(f"--------------------------------")
+
+# Specify file to write to
+output_file = os.path.join('..', 'PyPoll', 'Analysis', 'election_data_revised.text')
+
+# Open file using "Write" mode. Specify the variable to hold the contents
+with open(output_file, 'w',) as analysedfile:
+
+# Write new data
+    analysedfile.write(f"Election Results\n")
+    analysedfile.write(f"--------------------------------\n")
+    analysedfile.write(f"Total Votes: {total_votes}\n")
+    analysedfile.write(f"Candidate Names: {unique_list}\n")
+    analysedfile.write(f"--------------------------------\n")
+    analysedfile.write(f"Khan: {khan_percent:.2%} (votes: {khan_votes})\n")
+    analysedfile.write(f"Correy: {correy_percent:.2%} (votes: {correy_votes})\n")
+    analysedfile.write(f"Li: {li_percent:.2%} (votes: {li_votes})\n")
+    analysedfile.write(f"O'Tooley: {otooley_percent:.2%} (votes: {otooley_votes})\n")
+    analysedfile.write(f"--------------------------------\n")
+    analysedfile.write(f"Winner is {winner_name} with {winner} votes!\n")
+    analysedfile.write(f"--------------------------------\n")
