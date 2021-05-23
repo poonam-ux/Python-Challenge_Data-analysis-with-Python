@@ -77,7 +77,7 @@ print(f"Winner is {winner_name} with {winner} votes!")
 print(f"--------------------------------")
 
 # Specify file to write to
-output_file = os.path.join('..', 'PyPoll', 'Analysis', 'election_data_revised.text')
+output_file = os.path.join('..', 'PyPoll', 'Analysis', 'election_data_revised.txt')
 
 # Open file using "Write" mode. Specify the variable to hold the contents
 with open(output_file, 'w',) as analysedfile:

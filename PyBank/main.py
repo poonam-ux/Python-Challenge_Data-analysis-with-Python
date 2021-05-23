@@ -66,7 +66,7 @@ print(f"Greatest Increase in Profits:, {greatest_increase_month}, (${greatest_in
 print(f"Greatest Decrease in Profits:, {greatest_decrease_month}, (${greatest_decrease})")
 
 # Specify file to Write To
-budget_analysis = os.path.join('..', 'PyBank', 'Analysis', 'budget_data_analysed.text')
+budget_analysis = os.path.join('..', 'PyBank', 'Analysis', 'budget_data_analysed.txt')
 
 # Open file using "Write" mode. Specify the variable to hold the contents
 with open(budget_analysis, 'w',) as analysedfile:
