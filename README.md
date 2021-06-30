@@ -1,8 +1,6 @@
 # Python Challenge
 
-* Using Python scripting skills in a real-world situation
-
-This activity involves two challenges- PyBank(budget data) and PyPoll (election data)
+This activity involves two challenges- PyBank (budget data) and PyPoll (election data)
 
 ## PyBank
 
@@ -34,4 +32,4 @@ In this challenge, you are tasked with helping a small, rural town modernize its
 
 ![](https://github.com/poonam-ux/Python-PyPoll_data_analysis/blob/main/Results/PyPoll_results.png)
 
-Since the election dataset election_data.csv is a large file, and is unable to load from local computer, the screenshot of dataset is added to 'Resources' folder for the reference.
+Since the election dataset election_data.csv is a large file, and is unable to upload from local computer, the screenshot of dataset is added to 'Resources' folder for the reference.
